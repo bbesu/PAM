@@ -1,1 +1,20 @@
 Atividade
+function soma(a,b){
+    return a+b;
+}
+
+let s = soma(1,2);
+
+//arow function
+let somaArrow=(a,b)=>{ return a+b;}
+let subArrow=(a,b)=>{ return a-b;}
+let multArrow=(a,b)=>{ return a*b;}
+let divArrow=(a,b)=>{ return a/b;}
+let v1 = somaArrow(5,9);
+let v2 = subArrow(5,9);
+let v3 = multArrow(5,9);
+let v4 = divArrow(5,9);
+console.log('Arrow como function - soma'+v1);
+console.log('Arrow como function - divisao'+v2);
+console.log('Arrow como function - multiplicacao'+v3);
+console.log('Arrow como function - soma'+v4);
