@@ -1,0 +1,19 @@
+.fundo{
+    border-radius: 5px;
+    background-color: rgb(243, 236, 222);
+    height: 100vh;
+    width:100vi;
+    position: absolute;
+    z-index: 0;
+    left: 0px;
+    top: 0px;
+    display: flex;
+}
+.barra{
+    background-color: rgb(37, 54, 153);
+    height: 100vh;
+    width: 160px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
